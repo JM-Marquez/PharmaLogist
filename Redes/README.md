@@ -1,26 +1,12 @@
-# 🏥 Proyecto de Redes: Infraestructura Pharma_Reverse
+🏥 Infraestructura de Red: Pharma_ReverseEste proyecto detalla el diseño, configuración y validación de una red corporativa segmentada para una industria farmacéutica, utilizando el modelo Router-on-a-Stick para garantizar la seguridad y el control del tráfico inter-VLAN.📊 1. Tabla de Direccionamiento IP y Segmentación (VLANs)Se ha implementado un esquema de direccionamiento privado clase C, reservando las primeras 10 direcciones de cada subred para dispositivos de infraestructura (Static IPs).VLANNombreDepartamentoRed / MáscaraGatewayUso de IPs Estáticas10ADMINAdministración192.168.10.0/24.1Impresora Admin (.5)20DIRDirección192.168.20.0/24.1Impresora Dirección (.5)30DEVDesarrollo192.168.30.0/24.1Estaciones de Trabajo40SOPORTESoporte Técnico192.168.40.0/24.1Servidores IT50FORMACIONAula Alumnos192.168.50.0/24.1Equipos Formación60SRVServidores192.168.60.0/24.1WEB (.10) / Backup (.11)70ALMACENLogística192.168.70.0/24.1Zebras (.5 y .6)80GUESTInvitados192.168.80.0/24.1WiFi Público (Aislado)99MGMTGestión Nativa192.168.99.0/24
 
-Este proyecto detalla la configuración de una red corporativa segmentada para una farmacéutica, garantizando la seguridad entre departamentos y el acceso controlado para invitados.
-
-## 📍 1. Esquema Lógico y Físico
-La red utiliza una topología **estrella extendida** con un diseño de **Router-on-a-Stick** para el enrutamiento entre VLANs.
-
-* **Core:** Router central que gestiona el tráfico inter-vlan.
-* **Acceso:** Switches por planta (Planta 0, Planta 1) que distribuyen las VLANs a los dispositivos finales.
-
-## 📊 2. Tabla de Direccionamiento IP
-| Dispositivo | Interfaz | VLAN | IP Gateway | Rango DHCP |
-| :--- | :--- | :--- | :--- | :--- |
-| Router | G0/0.10 | 10 (Admin) | 192.168.10.1 | .11 - .254 |
-| Router | G0/0.70 | 70 (Almacén) | 192.168.70.1 | .11 - .254 |
-| Router | G0/0.80 | 80 (Invitados) | 192.168.80.1 | .10 - .254 |
-| Servidor | G0/0.60 | 60 (Server) | 192.168.60.1 | Estática (.10) |
-
-## 🔐 3. Seguridad y ACLs
-Se ha implementado una política de **mínimo privilegio**. La red de invitados (VLAN 80) tiene restringido el acceso a toda la red interna (`192.168.0.0/16`), permitiendo únicamente el tráfico hacia su Gateway para salida a internet.
-
-**Configuración de la ACL 120:**
-```bash
-access-list 120 permit icmp 192.168.80.0 0.0.0.255 host 192.168.80.1
-access-list 120 deny ip 192.168.80.0 0.0.0.255 192.168.0.0 0.0.255.255
-access-list 120 permit ip any any
+VLAN,Nombre,Departamento,Red / Máscara,Gateway,Uso de IPs Estáticas
+10,ADMIN,Administración,192.168.10.0/24,.1,Impresora Admin (.5)
+20,DIR,Dirección,192.168.20.0/24,.1,Impresora Dirección (.5)
+30,DEV,Desarrollo,192.168.30.0/24,.1,Estaciones de Trabajo
+40,SOPORTE,Soporte Técnico,192.168.40.0/24,.1,Servidores IT
+50,FORMACION,Aula Alumnos,192.168.50.0/24,.1,Equipos Formación
+60,SRV,Servidores,192.168.60.0/24,.1,WEB (.10) / Backup (.11)
+70,ALMACEN,Logística,192.168.70.0/24,.1,Zebras (.5 y .6)
+80,GUEST,Invitados,192.168.80.0/24,.1,WiFi Público (Aislado)
+99,MGMT,Gestión Nativa,192.168.99.0/24,.1,Switches / Router
