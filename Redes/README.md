@@ -15,7 +15,7 @@ Este proyecto detalla el diseño, configuración y validación de una red corpor
 | 40 | SOPORTE | Soporte Técnico | 192.168.40.0/24 | .1 |  |
 | 50 | FORMACION | Aula Alumnos | 192.168.50.0/24 | .1 |  |
 | 60 | SRV | Servidores | 192.168.60.0/24 | .1 | WEB (.10) / Backup (.11) |
-| 70 | ALMACEN-A.POINT | Logística | 192.168.70.0/24 | .1 | Zebras (.5 y .6) |
+| 70 | ALMACEN-A.POINT | Logística | 192.168.70.0/24 | .1 | Zebras (.5 ) |
 | 80 | WIFI-INVITADOS | Invitados | 192.168.80.0/24 | .1 | WiFi Público (Aislado) |
 | 99 | MGMT | Gestión Nativa | 192.168.99.0/24 | .1 | Switches / Router |
 
