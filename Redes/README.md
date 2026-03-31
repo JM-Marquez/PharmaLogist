@@ -43,7 +43,7 @@ Aislamiento Guest: La VLAN 80 solo tiene permitido el acceso a Internet, bloquea
 Gestión Segura: Solo la VLAN 99 tiene acceso a las líneas VTY de los dispositivos de red para tareas de administración.
 
 ## 📡 Infraestructura Inalámbrica
-SSID_EMPRESA: Mapeado a la VLAN de empleados con seguridad WPA2-PSK.
+SSID_EMPRESA: Mapeado a la VLAN 70 de empleados con seguridad WPA2-PSK.
 
 SSID_INVITADOS: Mapeado a la VLAN 80, configurado con aislamiento de red para tráfico únicamente hacia WAN.
 
@@ -54,9 +54,8 @@ SSID_INVITADOS: Mapeado a la VLAN 80, configurado con aislamiento de red para tr
 
 [x] Inter-VLAN Routing: Tráfico fluido entre departamentos permitidos.
 
-[x] Bloqueo ACL: Verificación de "Destination host unreachable" al intentar acceder desde el Aula a Dirección.
+[x] Bloqueo ACL: Verificación de "Destination host unreachable" al intentar acceder desde los dispositivos bloqueados.
 
-[x] Persistencia: Configuración de todos los dispositivos guardada en la NVRAM mediante write memory.
 
 ## 🏁 4. Conclusiones
-La red de Pharma_Reverse representa una infraestructura robusta y escalable. La separación de la base de datos de medicamentos en el servidor dedicado (.11) y el uso de impresoras industriales Zebra con direccionamiento estático asegura la continuidad de la cadena de suministro. Las políticas de seguridad mediante ACLs garantizan que la información sensible de Dirección y Desarrollo permanezca íntegra y confidencial.
+La red de Pharma_Reverse representa una infraestructura robusta y escalable permitiendo ampliar los departamentos en caso de necesidad. La separación de la base de datos de medicamentos en el servidor dedicado (.11) y el uso de impresoras industriales Zebra con direccionamiento estático asegura la continuidad de la cadena de suministro.la implementación de access point para el almacén, facilitan la movilidad y escalabilidad dentro del mismo, permitiendo adaptaciones si fueran necesarias. Las políticas de seguridad mediante ACLs garantizan que la información sensible de Dirección y Desarrollo permanezca íntegra y confidencial.
