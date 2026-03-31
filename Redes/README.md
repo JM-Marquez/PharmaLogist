@@ -29,7 +29,7 @@ Se ha optado por la arquitectura **Router-on-a-Stick** utilizando un router Cisc
 > **Motivación:** Esta opción permite un control centralizado del tráfico mediante Listas de Control de Acceso (ACLs) extendidas, facilitando la auditoría de seguridad y el aislamiento total de la red de invitados.
 
 
-##🔒 Políticas de Seguridad (ACLs Extendidas)
+## 🔒 Políticas de Seguridad (ACLs Extendidas)
 Se han implementado las siguientes restricciones para cumplir con los requisitos del proyecto:
 
 Bloqueo Aula → Dirección: Denegado el tráfico desde VLAN 50 a VLAN 20.
@@ -42,12 +42,12 @@ Aislamiento Guest: La VLAN 80 solo tiene permitido el acceso a Internet, bloquea
 
 Gestión Segura: Solo la VLAN 99 tiene acceso a las líneas VTY de los dispositivos de red para tareas de administración.
 
-##📡 Infraestructura Inalámbrica
+## 📡 Infraestructura Inalámbrica
 SSID_EMPRESA: Mapeado a la VLAN de empleados con seguridad WPA2-PSK.
 
 SSID_INVITADOS: Mapeado a la VLAN 80, configurado con aislamiento de red para tráfico únicamente hacia WAN.
 
-##🧪 3. Pruebas de Verificación (Checklist)
+## 🧪 3. Pruebas de Verificación (Checklist)
 [x] Asignación DHCP: Los terminales obtienen IP automáticamente en sus rangos correspondientes (ej. .11 en adelante).
 
 [x] Conectividad Interna: Pings exitosos entre dispositivos de la misma VLAN.
@@ -58,5 +58,5 @@ SSID_INVITADOS: Mapeado a la VLAN 80, configurado con aislamiento de red para tr
 
 [x] Persistencia: Configuración de todos los dispositivos guardada en la NVRAM mediante write memory.
 
-##🏁 4. Conclusiones
+## 🏁 4. Conclusiones
 La red de Pharma_Reverse representa una infraestructura robusta y escalable. La separación de la base de datos de medicamentos en el servidor dedicado (.11) y el uso de impresoras industriales Zebra con direccionamiento estático asegura la continuidad de la cadena de suministro. Las políticas de seguridad mediante ACLs garantizan que la información sensible de Dirección y Desarrollo permanezca íntegra y confidencial.
