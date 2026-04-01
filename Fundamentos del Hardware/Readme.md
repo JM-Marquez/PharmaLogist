@@ -26,7 +26,7 @@ Los equipos de desarrollo (Gen 6) incorporan procesadores **Intel Core Ultra**.
 
 ## 📊 Resumen de Inversión (Hardware y Red)
 
-| Categoría | Descripción | Estado |
+| Categoría | Descripción |
 | :--- | :--- | :--- |
 | **Equipos** | PCs Mini, Estándar y Alto Rendimiento | 
 | **Infraestructura** | Servidor HPE, NAS y SAI | 
