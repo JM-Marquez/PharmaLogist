@@ -28,10 +28,10 @@ Los equipos de desarrollo (Gen 6) incorporan procesadores **Intel Core Ultra**.
 
 | Categoría | Descripción | Estado |
 | :--- | :--- | :--- |
-| **Equipos** | PCs Mini, Estándar y Alto Rendimiento | ✅ Seleccionado |
-| **Infraestructura** | Servidor HPE, NAS y SAI | ✅ Seleccionado |
-| **Periféricos** | Monitores Samsung, Combos Logitech | ✅ Seleccionado |
-| **Redes** | Router, Switch PoE y Antenas Cisco | ✅ Seleccionado |
+| **Equipos** | PCs Mini, Estándar y Alto Rendimiento | 
+| **Infraestructura** | Servidor HPE, NAS y SAI | 
+| **Periféricos** | Monitores Samsung, Combos Logitech,Pdas,impresoras,etc | 
+| **Redes** | Router, Switch PoE y Antenas Cisco | 
 
 > **Presupuesto Total Estimado (Periféricos y Red): 7.385 €**
 
