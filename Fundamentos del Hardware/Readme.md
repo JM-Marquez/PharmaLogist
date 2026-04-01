@@ -33,7 +33,7 @@ Los equipos de desarrollo (Gen 6) incorporan procesadores **Intel Core Ultra**.
 | **Periféricos** | Monitores Samsung, Combos Logitech,Pdas,impresoras,etc | 
 | **Redes** | Router, Switch PoE y Antenas Cisco | 
 
-> **Presupuesto Total Estimado (Periféricos y Red): 7.385 €**
+> **Presupuesto Total Estimado (Periféricos y Red): 30652 €**
 
 ---
 
