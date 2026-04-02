@@ -1,7 +1,7 @@
 
 # Pharma_Reverse: Gestión de Sistemas
 
-Este repositorio contiene la documentación y configuración de la infraestructura de sistemas para la empresa **Pharma_Reverse**, basada en un entorno de dominio con Windows Server 2022 y clientes Windows 11 Pro.
+Este repositorio contiene la documentación y configuración de la infraestructura de sistemas para la empresa **Pharma_Reverse**, basada en un entorno de dominio con Windows Server 2022 y usuarios Windows 11 Pro.
 
 ## 📋 Resumen del Proyecto
 El objetivo principal ha sido la instalacion y puesta en marcha de los equipos y sus sistemas operativos, la centralización de la administración de usuarios y la seguridad de los archivos mediante servicios de directorio y permisos avanzados.
