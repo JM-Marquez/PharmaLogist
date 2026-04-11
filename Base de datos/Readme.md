@@ -14,6 +14,6 @@ La base de datos se ha desarrollado en MySQL e incluye:
 
 ## 📂 Contenido del Repositorio
 - `pharma_reverse.sql`: Script completo de creación y datos de ejemplo.
-- `/docs`: Documentación del análisis y diagrama E/R.
+- `/pdf`: Documentación del análisis y diagrama E/R.
 
 
