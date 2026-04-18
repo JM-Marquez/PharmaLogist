@@ -32,14 +32,17 @@ Para poder visualizar los datos de forma más cómoda, se ha utilizado un archiv
 
 El XML incluye la siguiente línea:
 
-<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+xml-stylesheet type="text/xsl" href="transform.xsl
 
 Gracias a esto, no es necesario ejecutar nada manualmente. Simplemente abriendo el archivo datos.xml en un navegador, se aplica automáticamente la transformación.
 
 El resultado es una página web donde se muestran los datos de forma más visual. En este caso, se ha implementado un pequeño menú que permite cambiar entre distintas secciones, como “Inicio” y “Devolución”, lo que hace la navegación más cómoda.
 
+## 4.evidencias en capturas
 
-## 4.Integración con el proyecto 
+En esta misma carpeta se aportan distintas capturas donde se muestra lo que se solicita en el entregable.
+
+## 5.Integración con el proyecto
 
 En este proyecto, el uso de XML no se limita a un archivo independiente, sino que forma parte del funcionamiento general de la aplicación.
 
@@ -50,5 +53,4 @@ Además, se ha empleado una transformación XSLT  para convertir el XML en una p
 Por otro lado, a partir del XML se ha generado un archivo JSON equivalente. Este formato es especialmente útil para trabajar con aplicaciones web modernas, ya que puede ser fácilmente utilizado en JavaScript , etc. De esta manera, se facilita la interoperabilidad del sistema con otras tecnologías.
 
 En conjunto, el proyecto demuestra cómo XML puede utilizarse como una estructura base de almacenamiento de datos, mientras que XSLT permite su transformación en un formato visual, y JSON posibilita su reutilización en otros entornos. Por tanto, no se trata de un XML aislado, sino de una solución integrada dentro del flujo de la aplicación.
-
 
