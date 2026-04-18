@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recogida SYSTEM "modelo.dtd">
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+
+<recogida id="FAR2026X99">
+    <cabecera>
+        <origen>
+          <farmacia codigo="F-12345">Farmacia García</farmacia>
+            <distribuidor>Farma Distribuidor</distribuidor>
+        </origen>
+        <destino>Central Pharma Reverse - Sevilla</destino>
+        <fechas>
+            <recogida_farmacia>2026-04-01</recogida_farmacia>
+            <recepcion_pharma>2026-04-12</recepcion_pharma>
+        </fechas>
+    </cabecera>
+    <unidades>
+        <contenedor id="C771" tipo="caducidad" cantidad="2">
+            <contenido><farmaco>Nolotil 575mg</farmaco><lote>L2201</lote></contenido>
+            <tratamiento>destruccion</tratamiento>
+        </contenedor>
+        <contenedor id="C882" tipo="caducidad" cantidad="1">
+            <contenido><farmaco>Omeprazol 20g</farmaco><lote>L9954</lote></contenido>
+            <tratamiento>reciclaje</tratamiento>
+        </contenedor>
+        <contenedor id="C871" tipo="retirada_sanitaria" cantidad="2">
+            <contenido><farmaco>Ibuprofeno 600mg</farmaco><lote>L4201</lote></contenido>
+            <tratamiento>destruccion</tratamiento>
+        </contenedor>
+        <contenedor id="C832" tipo="caducidad" cantidad="1">
+            <contenido><farmaco>Paracetamol 1g</farmaco><lote>L9955</lote></contenido>
+            <tratamiento>reciclaje</tratamiento>
+        </contenedor>
+        <contenedor id="C751" tipo="caducidad" cantidad="4">
+            <contenido><farmaco>Colutorio 500ml</farmaco><lote>L2971</lote></contenido>
+            <tratamiento>destruccion</tratamiento>
+        </contenedor>
+        <contenedor id="C692" tipo="opioide" cantidad="1">
+            <contenido><farmaco>Palexia 150mg</farmaco><lote>L9900</lote></contenido>
+            <tratamiento>reciclaje</tratamiento>
+        </contenedor>
+    </unidades>
+</recogida>

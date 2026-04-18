@@ -1,0 +1,81 @@
+{
+  "recogida": {
+    "id": "FAR2026X99",
+    "cabecera": {
+      "origen": {
+        "farmacia": {
+          "codigo": "F-12345",
+          "nombre": "Farmacia García"
+        },
+        "distribuidor": "Farma Distribuidor"
+      },
+      "destino": "Central Pharma Reverse - Sevilla",
+      "fechas": {
+        "recogida_farmacia": "2026-04-01",
+        "recepcion_pharma": "2026-04-12"
+      }
+    },
+    "unidades": [
+      {
+        "id": "C771",
+        "tipo": "caducidad",
+        "cantidad": 2,
+        "contenido": {
+          "farmaco": "Nolotil 575mg",
+          "lote": "L2201"
+        },
+        "tratamiento": "destruccion"
+      },
+      {
+        "id": "C882",
+        "tipo": "caducidad",
+        "cantidad": 1,
+        "contenido": {
+          "farmaco": "Omeprazol 20g",
+          "lote": "L9954"
+        },
+        "tratamiento": "reciclaje"
+      },
+      {
+        "id": "C871",
+        "tipo": "retirada_sanitaria",
+        "cantidad": 2,
+        "contenido": {
+          "farmaco": "Ibuprofeno 600mg",
+          "lote": "L4201"
+        },
+        "tratamiento": "destruccion"
+      },
+      {
+        "id": "C832",
+        "tipo": "caducidad",
+        "cantidad": 1,
+        "contenido": {
+          "farmaco": "Paracetamol 1g",
+          "lote": "L9955"
+        },
+        "tratamiento": "reciclaje"
+      },
+      {
+        "id": "C751",
+        "tipo": "caducidad",
+        "cantidad": 4,
+        "contenido": {
+          "farmaco": "Colutorio 500ml",
+          "lote": "L2971"
+        },
+        "tratamiento": "destruccion"
+      },
+      {
+        "id": "C692",
+        "tipo": "opioide",
+        "cantidad": 1,
+        "contenido": {
+          "farmaco": "Palexia 150mg",
+          "lote": "L9900"
+        },
+        "tratamiento": "reciclaje"
+      }
+    ]
+  }
+}

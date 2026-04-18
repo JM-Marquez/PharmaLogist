@@ -1,0 +1,18 @@
+<!ELEMENT recogida (cabecera, unidades)>
+<!ATTLIST recogida id ID #REQUIRED>
+<!ELEMENT cabecera (origen, destino, fechas)>
+<!ELEMENT origen (farmacia, distribuidor)>
+<!ELEMENT farmacia (#PCDATA)>
+<!ATTLIST farmacia codigo CDATA #REQUIRED>
+<!ELEMENT distribuidor (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT fechas (recogida_farmacia, recepcion_pharma)>
+<!ELEMENT recogida_farmacia (#PCDATA)>
+<!ELEMENT recepcion_pharma (#PCDATA)>
+<!ELEMENT unidades (contenedor+)>
+<!ELEMENT contenedor (contenido, tratamiento)>
+<!ATTLIST contenedor id ID #REQUIRED tipo CDATA #REQUIRED cantidad CDATA #REQUIRED>
+<!ELEMENT contenido (farmaco, lote)>
+<!ELEMENT farmaco (#PCDATA)>
+<!ELEMENT lote (#PCDATA)>
+<!ELEMENT tratamiento (#PCDATA)>
