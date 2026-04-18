@@ -1,4 +1,4 @@
-📝## 1. Datos representados en el XML
+📝 ## 1. Datos representados en el XML
 
 El archivo `datos.xml` recoge la información de una recogida de productos farmacéuticos dentro de un sistema de logística inversa.
 
