@@ -18,7 +18,6 @@ Para asegurar que el XML está bien construido, se utiliza un archivo `modelo.dt
 
 El XML incluye esta referencia:
 
-```xml
 <!DOCTYPE recogida SYSTEM "modelo.dtd">
 
 Esto hace que el archivo pueda validarse automáticamente.
@@ -51,4 +50,5 @@ Además, se ha empleado una transformación XSLT  para convertir el XML en una p
 Por otro lado, a partir del XML se ha generado un archivo JSON equivalente. Este formato es especialmente útil para trabajar con aplicaciones web modernas, ya que puede ser fácilmente utilizado en JavaScript , etc. De esta manera, se facilita la interoperabilidad del sistema con otras tecnologías.
 
 En conjunto, el proyecto demuestra cómo XML puede utilizarse como una estructura base de almacenamiento de datos, mientras que XSLT permite su transformación en un formato visual, y JSON posibilita su reutilización en otros entornos. Por tanto, no se trata de un XML aislado, sino de una solución integrada dentro del flujo de la aplicación.
+
 
