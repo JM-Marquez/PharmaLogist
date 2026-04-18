@@ -1,4 +1,6 @@
-📝 ## 1. Datos representados en el XML
+# Informe del Proyecto XML
+
+## 📝1. Datos representados en el XML
 
 El archivo `datos.xml` recoge la información de una recogida de productos farmacéuticos dentro de un sistema de logística inversa.
 
@@ -10,7 +12,7 @@ En general, la estructura es bastante clara y permite entender rápidamente toda
 
 ---
 
-✅## 2. Validación con DTD
+## ✅2. Validación con DTD
 
 Para asegurar que el XML está bien construido, se utiliza un archivo `modelo.dtd`, que define la estructura que debe seguir el documento.
 
@@ -24,7 +26,7 @@ Una forma de comprobarlo es desde editores como Visual Studio Code, que suelen m
 
 Si no aparece ningún error, significa que el XML cumple correctamente con el DTD.
 
-🎨## 3. Transformación XSLT y visualización
+## 🎨3. Transformación XSLT y visualización
 
 Para poder visualizar los datos de forma más cómoda, se ha utilizado un archivo XSLT (transform.xsl) que transforma el XML en HTML.
 
@@ -36,7 +38,7 @@ Gracias a esto, no es necesario ejecutar nada manualmente. Simplemente abriendo 
 
 El resultado es una página web donde se muestran los datos de forma más visual. En este caso, se ha implementado un pequeño menú que permite cambiar entre distintas secciones, como “Inicio” y “Devolución”, lo que hace la navegación más cómoda.
 
-📸## 4.evidencias en capturas
+## 📸4.evidencias en capturas
 
 En esta misma carpeta se aportan distintas capturas donde se muestra lo que se solicita en el entregable.
 
@@ -51,3 +53,4 @@ Además, se ha empleado una transformación XSLT  para convertir el XML en una p
 Por otro lado, a partir del XML se ha generado un archivo JSON equivalente. Este formato es especialmente útil para trabajar con aplicaciones web modernas, ya que puede ser fácilmente utilizado en JavaScript , etc. De esta manera, se facilita la interoperabilidad del sistema con otras tecnologías.
 
 En conjunto, el proyecto demuestra cómo XML puede utilizarse como una estructura base de almacenamiento de datos, mientras que XSLT permite su transformación en un formato visual, y JSON posibilita su reutilización en otros entornos. Por tanto, no se trata de un XML aislado, sino de una solución integrada dentro del flujo de la aplicación.
+
