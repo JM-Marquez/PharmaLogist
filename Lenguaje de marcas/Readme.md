@@ -42,7 +42,7 @@ El resultado es una página web donde se muestran los datos de forma más visual
 
 En esta misma carpeta se aportan distintas capturas donde se muestra lo que se solicita en el entregable.
 
-🔗## 5.Integración con el proyecto
+## 🔗5.Integración con el proyecto
 
 En este proyecto, el uso de XML no se limita a un archivo independiente, sino que forma parte del funcionamiento general de la aplicación.
 
