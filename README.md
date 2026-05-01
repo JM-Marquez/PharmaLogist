@@ -4,7 +4,7 @@ Este proyecto nace de **más de 20 años de experiencia en el sector logístico*
 
 ---
 
-## 🛠️ Infraestructura y Hardware (El "Hierro")
+## 🛠️ Infraestructura y Hardware 
 Diseño orientado a la alta disponibilidad y la robustez en entornos de trabajo intenso.
 
 *   **🧠 El "Cerebro":** Servidor tipo **Rack** para máquinas virtuales, **Switch gestionable** y **Firewall** perimetral para seguridad.
