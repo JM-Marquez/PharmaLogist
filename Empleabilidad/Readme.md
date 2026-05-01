@@ -1,31 +1,31 @@
 
 # 🏥 Pharma Reverse: Infraestructura de Logística Inversa
 
-Bienvenido al repositorio oficial de **Pharma Reverse**, un ecosistema técnico diseñado para la gestión automatizada, segura y trazable de la logística inversa de medicamentos[cite: 1]. Este proyecto integra administración de redes, sistemas operativos, bases de datos y despliegue en la nube.
+Bienvenido al repositorio oficial de **Pharma Reverse**, un ecosistema técnico diseñado para la gestión automatizada, segura y trazable de la logística inversa de medicamentos. Este proyecto integra administración de redes, sistemas operativos, bases de datos y despliegue en la nube.
 
 ---
 
 ## 👨‍💻 Perfil Profesional
-Actualmente curso el primer año de **ASIR** (Administración de Sistemas Informáticos en Red), formación que complemento con un máster en desarrollo frontend y ciberseguridad avanzada[cite: 1].
+Actualmente curso el primer año de **ASIR** (Administración de Sistemas Informáticos en Red), formación que complemento con un máster en desarrollo frontend y ciberseguridad avanzada.
 
-*   **Objetivo:** Especialización en la convergencia entre **DevOps y Ciberseguridad (DevSecOps)**[cite: 1].
-*   **Intereses:** Diseño de redes, arquitecturas Cloud (AWS), automatización de infraestructuras y hardening de sistemas[cite: 1].
-*   **Actitud:** Proactividad ante el aprendizaje constante y alta capacidad de adaptación tecnológica[cite: 1].
+*   **Objetivo:** Especialización en la convergencia entre **DevOps y Ciberseguridad (DevSecOps)**.
+*   **Intereses:** Diseño de redes, arquitecturas Cloud (AWS), automatización de infraestructuras y hardening de sistemas.
+*   **Actitud:** Proactividad ante el aprendizaje constante y alta capacidad de adaptación tecnológica.
 
 ---
 
 ## 🚀 Sobre el Proyecto: Pharma Reverse
-Pharma Reverse soluciona el desafío del retorno de productos farmacéuticos que, por normativa legal, no pueden desecharse como residuos convencionales[cite: 1].
+Pharma Reverse soluciona el desafío del retorno de productos farmacéuticos que, por normativa legal, no pueden desecharse como residuos convencionales.
 
 ### 🛠️ Pilares Técnicos e Implementación
-*   **Infraestructura de Red:** Implementación de topología lógica con router central y segmentación mediante switches de acceso[cite: 1].
-*   **Sistemas Operativos:** Despliegue de **Windows Server** (Active Directory) con gestión avanzada de permisos[cite: 1].
-*   **Gestión de Datos:** Base de datos relacional **SQL** optimizada para trazabilidad e inventario[cite: 1].
-*   **Virtualización y Cloud:** Entorno virtualizado en local (VirtualBox/Proxmox) y despliegue en la nube con **AWS**[cite: 1].
+*   **Infraestructura de Red:** Implementación de topología lógica con router central y segmentación mediante switches de acceso.
+*   **Sistemas Operativos:** Despliegue de **Windows Server** (Active Directory) con gestión avanzada de permisos.
+*   **Gestión de Datos:** Base de datos relacional **SQL** optimizada para trazabilidad e inventario.
+*   **Virtualización y Cloud:** Entorno virtualizado en local (VirtualBox/Proxmox) y despliegue en la nube con **AWS**.
 *   **Lenguajes de Marcas:** 
-    *   **XML/DTD/XSL:** Intercambio y validación de datos complejos[cite: 1].
-    *   **JSON:** Estándar ligero para comunicación dinámica[cite: 1].
-    *   **Frontend:** Interfaz adaptativa desarrollada con **Bootstrap**[cite: 1].
+    *   **XML/DTD/XSL:** Intercambio y validación de datos complejos.
+    *   **JSON:** Estándar ligero para comunicación dinámica.
+    *   **Frontend:** Interfaz adaptativa desarrollada con **Bootstrap**.
 
 ---
 
@@ -35,9 +35,9 @@ Mi visión profesional se apoya en el análisis de organizaciones punteras y exp
 ### Empresas de Referencia
 | Empresa | Especialización | Foco Tecnológico |
 | :--- | :--- | :--- |
-| **Minsait (Indra)** | Digitalización y Multicloud | K8s, CI/CD, SIEM[cite: 1] |
-| **S21sec** | Ciberseguridad Defensiva | EDR/XDR, Respuesta ante incidentes[cite: 1] |
-| **Plain Concepts** | Cloud-Native & DevOps | Azure, Terraform, Ansible (IaC)[cite: 1] |
+| **Minsait (Indra)** | Digitalización y Multicloud | K8s, CI/CD, SIEM |
+| **S21sec** | Ciberseguridad Defensiva | EDR/XDR, Respuesta ante incidentes |
+| **Plain Concepts** | Cloud-Native & DevOps | Azure, Terraform, Ansible (IaC) |
 
 ### Referentes a Seguir
 *   **Rubén Martín:** Especialista en SRE y Cloud Native. Referente en la eliminación de fricción entre desarrollo y operaciones[cite: 1].
