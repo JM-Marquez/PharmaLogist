@@ -1,6 +1,6 @@
 # 🏥 PharmaLogist-Reverse: Gestión de Logística Inversa
 
-Este proyecto nace de **más de 20 años de experiencia en el sector logístico**. Su objetivo es digitalizar y asegurar una planta real de logística inversa de medicamentos, donde la **trazabilidad absoluta de los lotes** es la prioridad crítica.
+Este proyecto nace de **20 años de experiencia en el sector logístico**. Su objetivo es digitalizar y asegurar una planta real de logística inversa de medicamentos, donde la **trazabilidad absoluta de los lotes** es la prioridad crítica.
 
 ---
 
