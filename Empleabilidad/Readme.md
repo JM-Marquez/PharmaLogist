@@ -40,24 +40,24 @@ Mi visión profesional se apoya en el análisis de organizaciones punteras y exp
 | **Plain Concepts** | Cloud-Native & DevOps | Azure, Terraform, Ansible (IaC) |
 
 ### Referentes a Seguir
-*   **Rubén Martín:** Especialista en SRE y Cloud Native. Referente en la eliminación de fricción entre desarrollo y operaciones[cite: 1].
-*   **Lorenzo Martínez (Securízame):** Experto en forense y respuesta ante incidentes. Aporta la visión técnica de "seguridad en la trinchera"[cite: 1].
+*   **Rubén Martín:** Especialista en SRE y Cloud Native. Referente en la eliminación de fricción entre desarrollo y operaciones.
+*   **Lorenzo Martínez (Securízame):** Experto en forense y respuesta ante incidentes. Aporta la visión técnica de "seguridad en la trinchera".
 
 ---
 
 ## 🧠 Reflexión y Aprendizaje
-El desarrollo de este proyecto ha sido un punto de inflexión en mi formación académica[cite: 1]:
+El desarrollo de este proyecto ha sido un punto de inflexión en mi formación académica:
 
-*   **Lo mejor:** Gestión de bases de datos, configuración de permisos y despliegues en la nube[cite: 1].
-*   **El reto:** La configuración lógica de red (routers y switches) fue la parte más compleja pero satisfactoria[cite: 1].
-*   **Lección aprendida:** La seguridad no es un añadido, debe estar integrada por diseño desde la base de la infraestructura[cite: 1].
+*   **Lo mejor:** Gestión de bases de datos, configuración de permisos y despliegues en la nube.
+*   **El reto:** La configuración lógica de red (routers y switches) fue la parte más compleja pero satisfactoria.
+*   **Lección aprendida:** La seguridad no es un añadido, debe estar integrada por diseño desde la base de la infraestructura.
 
 ---
 
 ## 🔗 Enlaces del Proyecto
-*   **Web en Funcionamiento:** [Ver Pharma Reverse](https://jm-marquez.github.io/Pharma_Reverse_web/XML/datos.xml)[cite: 1]
-*   **Portfolio Personal:** [Acceder al Portfolio](https://jm-marquez.github.io/Portfolio_proyecto_diciembre_2025/)[cite: 1]
-*   **Repositorio GitHub:** [github.com/JM-Marquez](https://github.com/JM-Marquez)[cite: 1]
+*   **Web en Funcionamiento:** [Ver Pharma Reverse](https://jm-marquez.github.io/Pharma_Reverse_web/XML/datos.xml)
+*   **Portfolio Personal:** [Acceder al Portfolio](https://jm-marquez.github.io/Portfolio_proyecto_diciembre_2025/)
+*   **Repositorio GitHub:** [github.com/JM-Marquez](https://github.com/JM-Marquez)
 
 ---
 *Proyecto desarrollado para el módulo Intermodular IPE - ASIR 2025/2026*
