@@ -42,6 +42,8 @@ Aislamiento Guest: La VLAN 80 solo tiene permitido el acceso a Internet, bloquea
 
 Gestión Segura: Solo la VLAN 99 tiene acceso a las líneas VTY de los dispositivos de red para tareas de administración.
 
+Se ha implementado una arquitectura de red inalámbrica dual para mitigar riesgos de interferencia y acceso no autorizado. La red de Empresa (VLAN 70) da soporte exclusivo a dispositivos críticos como PDAs y terminales de empleados, mientras que la red de Invitados (VLAN 80) queda confinada a un hardware independiente, gestionado por una ACL estricta que impide el salto a cualquier otro segmento de la planta
+
 ## 📡 Infraestructura Inalámbrica
 SSID_EMPRESA: Mapeado a la VLAN 70 de empleados con seguridad WPA2-PSK.
 
