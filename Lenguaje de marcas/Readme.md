@@ -41,7 +41,8 @@ El resultado es una página web donde se muestran los datos de forma más visual
 ## 📸4.evidencias en capturas y web Pharma-Reverse
 
 En esta misma carpeta se aportan distintas capturas donde se muestra lo que se solicita en el entregable.
-https://jm-marquez.github.io/Pharma_Reverse_web/XML/datos.xml
+
+Web: https://jm-marquez.github.io/Pharma_Reverse_web/XML/datos.xml
 
 ## 🔗5.Integración con el proyecto
 
