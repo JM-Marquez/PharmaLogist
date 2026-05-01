@@ -38,9 +38,10 @@ Gracias a esto, no es necesario ejecutar nada manualmente. Simplemente abriendo 
 
 El resultado es una página web donde se muestran los datos de forma más visual. En este caso, se ha implementado un pequeño menú que permite cambiar entre distintas secciones, como “Inicio” y “Devolución”, lo que hace la navegación más cómoda.
 
-## 📸4.evidencias en capturas
+## 📸4.evidencias en capturas y web Pharma-Reverse
 
 En esta misma carpeta se aportan distintas capturas donde se muestra lo que se solicita en el entregable.
+https://jm-marquez.github.io/Pharma_Reverse_web/XML/datos.xml
 
 ## 🔗5.Integración con el proyecto
 
