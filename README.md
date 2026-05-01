@@ -1,27 +1,44 @@
-# Proyecto Intermodular ASIR - PharmaLogist-Reverse
+# 🏥 PharmaLogist-Reverse: Gestión de Logística Inversa
 
-Este proyecto lo he sacado de mis más de 20 años trabajando en logística. La idea es montar toda la parte informática que necesita una planta real de logística inversa de medicamentos, donde la trazabilidad y que no se pierdan los datos de los lotes es lo más importante.
-
-## ¿Qué vamos a montar?
-El objetivo es que la planta pueda gestionar bien las devoluciones y las caducidades que llegan de las farmacias. Para eso necesito una red que no falle cuando estamos clasificando mercancía y que los datos estén bien protegidos.
-
-### Los equipos que vamos a usar (Hardware):
-* **En la oficina:** 2 PCs para administración y una impresora multifunción para los albaranes.
-* **En el almacén (Segregación):** 6 PCs fijos que van por cable para que no pierdan conexión. Estos PCs van conectados a **básculas** y a  **impresoras de etiquetas** térmicas para marcar lo que llega.
-* **En pista:**  PDAs por Wi-Fi para que los operarios escaneen en los muelles y las estanterías.
-* **El "cerebro":** Un servidor tipo Rack para las máquinas virtuales, un Switch gestionable para separar las redes y un Firewall para la seguridad.
-
-### Redes y Nube:
-* **Separación de redes (VLANs):** Vamos a separar el tráfico de la oficina del de las PDAs del almacén. Así, si una PDA da problemas, no me tumba la facturación ni los servidores.
-* **Copia en la Nube:** Usaremos AWS para tener un backup fuera de la oficina por si pasa algo con el servidor local.
-
-### Seguridad y Control:
-* **Permisos:** Control de quién entra a cada carpeta. Un operario de segregación solo mete datos, pero no puede borrar el historial de destrucciones, por ejemplo.
-* **Contraseñas:** Políticas para que los datos de los medicamentos cumplan con lo que pide el sector farmacéutico.
-
-### Datos y XML:
-* **Base de datos (SQL):** Para saber en todo momento dónde está cada lote y si es apto o va a destrucción.
-* **Archivos XML:** Para generar los informes de trazabilidad que hay que enviar a Sanidad.
+Este proyecto nace de **más de 20 años de experiencia en el sector logístico**. Su objetivo es digitalizar y asegurar una planta real de logística inversa de medicamentos, donde la **trazabilidad absoluta de los lotes** es la prioridad crítica.
 
 ---
-*Estado: Preparando el direccionamiento IP de los PCs y las PDAs.*
+
+## 🛠️ Infraestructura y Hardware (El "Hierro")
+Diseño orientado a la alta disponibilidad y la robustez en entornos de trabajo intenso.
+
+*   **🧠 El "Cerebro":** Servidor tipo **Rack** para máquinas virtuales, **Switch gestionable** y **Firewall** perimetral para seguridad.
+*   **🏢 Oficina:** 2 PCs de gestión y multifuncionales para emisión de albaranes.
+*   **📦 Almacén (Segregación):** 6 PCs fijos conectados por cable para evitar pérdidas de señal, integrados con **básculas** e **impresoras térmicas** de etiquetas.
+*   **🚚 Pista:** Dispositivos **PDA vía Wi-Fi** para escaneo en muelles y estanterías en tiempo real.
+*   **🌐 Redes y Nube:** 
+    *   **VLANs:** Separación de tráfico (Oficina vs. PDAs) para que incidencias en almacén no detengan la facturación.
+    *   **AWS:** Backup externo en la nube para garantizar la resiliencia de los datos ante desastres locales.
+
+---
+
+## 🗄️ Diseño de Base de Datos y Lógica (SQL)
+Estructura relacional en **3ª Forma Normal** para gestionar el ciclo de vida completo del residuo farmacéutico.
+
+*   **📊 Estructura Principal:** Registro detallado de usuarios/roles, farmacias, catálogo de medicamentos y trazabilidad por lotes/caducidad.
+*   **🔄 Operaciones:** Control total desde la creación del envío hasta la decisión final de **Reciclaje o Destrucción**.
+*   **🕵️ Consultas de Control de Calidad:** 
+    *   **Trazabilidad Total:** Sistema de `JOINs` para vincular cada fármaco con su farmacia de origen y estado de envío.
+    *   **Gestión de Almacén:** Consultas específicas para detectar envíos recibidos pero no procesados, evitando cuellos de botella.
+
+---
+
+## 🛡️ Seguridad y Cumplimiento (Compliance)
+*   **🔐 Control de Acceso:** Gestión de permisos granulares; un operario puede registrar datos pero no borrar historiales de destrucción.
+*   **💊 Estándar Farmacéutico:** Políticas de contraseñas y tratamiento de datos alineados con la normativa sanitaria vigente (Datamatrix).
+*   **📄 Intercambio de Información:** Implementación de **XML/DTD/XSL** para generar informes técnicos de trazabilidad requeridos por las autoridades sanitarias.
+
+---
+
+## 🚀 Perfil y Objetivos
+*   **Enfoque:** Convergencia entre **DevOps y Ciberseguridad (DevSecOps)**.
+*   **Visión:** Integrar la automatización de infraestructuras con la seguridad para optimizar la eficiencia de los sistemas críticos.
+*   **Formación:** 1º ASIR + Máster especializado en Ciberseguridad Avanzada y Frontend.
+
+---
+*Este proyecto forma parte del módulo Intermodular - 2025/2026*
